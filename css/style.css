@@ -1,0 +1,199 @@
+
+body{
+  margin: 0;
+  margin-bottom: 30px;
+  text-align: center;
+  overflow-x: hidden;
+}
+h2{
+  margin-top: 0;
+  padding-top: 30px;
+}
+a{
+  text-decoration: none!important;
+}
+img{
+  display: block;
+  width: 100%;
+}
+.logo{
+  width: 70px;
+}
+
+/* HEADER SECTION */
+
+.header{
+  background: black;
+  color: white;
+  height: 100vh;
+}
+.header-context{
+  margin-top: 0;
+  padding: 30px;
+  padding-top: 50px;
+  font-family: serif;
+  font-size: 3rem;
+  color: rgba(255, 0, 0, 0.7);
+}
+.span{
+  text-align: center;
+  background: red;
+  width: 30rem;
+  font-size: 3rem;
+  font-style: italic;
+  font-family: fantasy;
+  padding: 20px 5px;
+  margin: 10% auto;
+}
+
+/* NAVIGATION SECTION*/
+
+.top-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background: red;
+  height: 20px;
+  padding-right: 30px;
+  padding-top: 10px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 2px 0 rgba(30, 10, 2, 0.5);
+}
+.nav-items{
+  color: black;
+  padding: 5px;
+}
+.nav-items:hover{
+  color: white;
+}
+
+/* HOME SECTION */
+
+.home{
+  background-color: whitesmoke;
+  width: 100%;
+  height: 100vh;
+}
+.home-text{
+  padding: 30px;
+}
+
+/* FEATURES SECTION */
+
+.features{
+  height: 100vh;
+  background: lightgrey;
+}
+.features-text{
+  padding: 30px;
+}
+.features-benefits{
+  padding: 0 30px;
+  margin: 15% auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.benefits{
+  padding: 10px;
+  line-height: 2.5em;
+}
+.benefits img{
+  border-radius: 10px;
+  border: solid black 2px;
+}
+
+/* GALLERY SECTION */
+
+.gallery{
+  height: 100vh;
+}
+.gallery-text{
+  padding: 30px;
+}
+.gallery-text span{
+  font-weight: bold;
+  font-size: 20px;
+  font-style: italic;
+}
+.gallery-img{
+  padding: 10px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.gallery-img img{
+  display: block;
+  width: 20%;
+  border-radius: 10px;
+  border: solid grey 2px;
+}
+.gallery-img:hover img{
+
+}
+
+/* PRICING SECTION */
+
+.pricing{
+  height: 100vh;
+  background: whitesmoke;
+}
+.pricing-text{
+  padding: 30px;
+}
+.pricing-plan{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px;
+}
+.pricing-plan-text{
+  line-height: 2.5em;
+  text-align: center;
+  width: 100%;
+  margin: 20px;
+  height: 400px;
+  padding: 30px;
+  position: relative;
+  border-style: ridge;
+  border-radius: 10px;
+  background: white;
+}
+.plan-title{
+  background: whitesmoke;
+  border-radius: 10px;
+}
+.plan-title p::before{
+  margin-top: 10px;
+  content: "MYR";
+}
+li{
+  list-style-type: none;
+}
+.plan-context{
+  text-align: center;
+  margin-top: 30px;
+}
+.plan-context li::before{
+  content: "$ ";
+  color: #3aeb8c;
+}
+.buy-btn{
+  margin-top: 50px;
+  background-color: palegoldenrod;
+  width: 100px;
+  height: 50px;
+  transition-duration: 0.2s;
+}
+.buy-btn:hover{
+  margin-top: 50px;
+  background-color: #58d5f7;
+  color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+  -moz-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+  box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+}
